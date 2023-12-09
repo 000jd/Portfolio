@@ -117,3 +117,37 @@
     }
 }
 
+
+/* doing here for skill section */
+
+/* Responsive styles for tablets */
+/* Responsive styles for tablets */
+@media screen and (max-width: 768px) {
+    .skills {
+        height: auto; 
+        margin: 20px;
+    }
+
+    .skills .section-container .skillType {
+        margin: 30px;
+        border-radius: 15px; 
+    }
+}
+
+/* Responsive styles for mobiles */
+@media screen and (max-width: 480px) {
+    .skills {
+        height: auto; 
+        margin: 10px;
+    }
+
+    .skills .section-container .skillType {
+        margin: 25px;
+        padding: 15px; 
+        border-radius: 10px; 
+    }
+
+    .skills .section-container .skillType .skillContent {
+        font-size: 16px; 
+    }
+}
