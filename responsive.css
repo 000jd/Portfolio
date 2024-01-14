@@ -36,7 +36,12 @@
   .section-container {
     height: fit-content;
   }
-
+  /* Skills section */
+  section .skills .section-container .skillType{
+    margin: 10px;
+    padding: 10px;
+  }
+  
   section {
     margin: 0 5%;
   }
@@ -114,36 +119,5 @@
   .text-container {
     text-align: justify;
   }
-}
 
-/* doing here for skill section */
-
-/* Responsive styles for tablets */
-/* Responsive styles for tablets */
-@media screen and (max-width: 768px) {
-  .skills {
-    height: auto;
-    margin: 20px;
-  }
-
-  .skills .section-container .skillType {
-    margin: 30px;
-    border-radius: 15px;
-  }
-}
-
-/* Responsive styles for mobiles */
-@media (max-width: 767px) {
-  .skills {
-    height: auto; /* Remove fixed height for better adaptability */
-    margin: 20px; /* Reduce margins for smaller screens */
-  }
-
-  .skills .section-container .skillType {
-    padding: 15px; /* Reduce padding for smaller screens */
-  }
-
-  .skills .section-container .skillType .skillContent {
-    font-size: 16px; /* Adjust font size for readability */
-  }
 }
